@@ -1,0 +1,230 @@
+@charset "UTF-8";
+
+/* font系 */
+@font-face{
+  font-family: 'ZenKurenaido';
+  src: url("../fonts/ZenKurenaido-Regular.ttf") format("truetype");
+}
+
+@font-face{
+  font-family: 'KiwiMaruL';
+  src: url("../fonts/KiwiMaru-Light.ttf") format("truetype");
+}
+
+@font-face{
+  font-family: 'KiwiMaruM';
+  src: url("../fonts/KiwiMaru-Medium.ttf") format("truetype");
+}
+
+h1, h2, h3, p, ul, select{
+  font-family: 'KiwiMaruL';
+  color: #2a62a3;
+}
+
+
+
+html{
+  scroll-behavior: smooth;
+}
+body,h1,h2,p,ul,ol{
+  margin: 0;
+  padding: 0;}
+body{
+  font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ',Meiryo,'ＭＳ Ｐゴシック','MS PGothic';
+}
+body {
+	font-family: "Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;/* どのデバイスでも見れるようにするために書体の設定 */
+  line-height: 1.8;/* 行間設定 */
+  background: #d4eaff;
+}
+
+* {box-sizing: border-box;} /* paddingとborderを幅と高さに含める */
+
+ul{list-style: none;/* 中点（・）を削除する */
+  padding: 0;
+}
+
+a{text-decoration: none;}/* リンク時の下線を削除する */
+
+
+
+
+
+/* header */
+header {
+  background-color: #2a62a3;
+  display: flex;
+  height: 77px;
+  justify-content: space-between;
+}
+
+
+.logo {
+  width: 100px;
+  margin: 10px;
+}
+
+nav {
+  margin-right: 20px;
+  vertical-align: middle;
+  width: 250px;
+}
+
+nav ul {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  padding: 10px 20px;
+  background-color: #fff;
+  font-weight: bold;
+  transition: ease 0.5s;
+}
+
+nav a {
+  display: block;
+  color: #2a62a3;
+}
+
+nav a:hover li{
+  background-color: #2a62a3;
+  color: #fff;
+  border: 1px solid #fff;
+} 
+
+.form-select {
+  width: 200px;
+  padding: 5px;
+  transition: ease-in 0.5s;
+  border: 1px solid #2a62a3;
+  color: #2a62a3;
+  font-family: 'KiwiMaruM';
+}
+
+.form-file {
+  color: #2a62a3;
+  width: 250px;
+  border: 1px solid #2a62a3;
+}
+
+.form-date {
+  color: #2a62a3;
+  width: 200px;
+  border: 1px solid #2a62a3;
+  padding: 5px;
+}
+
+.form-button {
+  color: #2a62a3;
+  border: 1px solid #2a62a3;
+  background-color: #fff;
+  padding: 5px;
+}
+
+.box-jp {
+  width: 1000px;
+  height: 1000px;
+  margin: auto;
+  position: relative;
+}
+
+.py-object {
+    width: 235px;
+    height: 135px;
+
+}
+
+.hokkaido {
+  position: absolute;
+  top: 0px;
+  right: 325px;
+}
+
+.touhoku {
+  position: absolute;
+  top: 350px;
+  right: 40px;
+}
+
+.kantou {
+  position: absolute;
+  top: 600px;
+  right: 40px;
+}
+
+.tyuubu {
+  position: absolute;
+  top: 400px;
+  right: 400px;
+}
+
+.kinki {
+  position: absolute;
+  top: 730px;
+  right: 270px;
+}
+
+.tyuugoku {
+  position: absolute;
+  top: 530px;
+  right: 570px;
+}
+
+.sikoku {
+  position: absolute;
+  top: 830px;
+  right: 500px;
+}
+
+.kyuusyuu {
+  position: absolute;
+  top: 600px;
+  left: 10px;
+}
+
+.upload-main {
+  margin-left: 30px;
+}
+
+.file_viewer {
+  margin-bottom: 20px;
+}
+
+
+/* footer */
+footer {
+  background-color: #2a62a3;
+  text-align:center;
+}
+
+footer p {
+  padding: 20px;
+  color: #fff;
+}
+
+
+
+
+.all-main {
+  width: 1000px;
+  margin: auto;
+}
+
+.all_imgs_py {
+  width: 1000px;
+  height: 1300px
+}
+
+/* for py 用のやつ */
+
+/* .main-content article {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list_img {
+  width: 200px;
+  margin: 25px;
+} */
